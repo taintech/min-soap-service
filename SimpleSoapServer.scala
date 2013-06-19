@@ -7,7 +7,7 @@ import javax.xml.ws.Endpoint
 private class MinimalSoapServer {
 
     @SOAPBinding(style = Style.RPC)
-    def test(value : String) = "Hi " + value
+    def test(value : String) = "Hello " + value + "!"
 
 }
 object MinimalSoapServer {                                          // defined Companion Object for our class

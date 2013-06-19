@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:org="org.scalabound.test">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <org:test>
+         <arg0>World</arg0>
+      </org:test>
+   </soapenv:Body>
+</soapenv:Envelope>
